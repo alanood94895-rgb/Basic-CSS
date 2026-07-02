@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.box1{
+    display: inline-block;
+    width:150px;
+    height:150px;
+    background:lightblue;
+    position:relative;
+    top:20px;
+    left:20px;
+    z-index:2;
+    opacity:0.9;
+    cursor:pointer;
+}
+
+.box2{
+    display:block;
+    width:150px;
+    height:150px;
+    background:orange;
+    position:relative;
+    top:-50px;
+    left:70px;
+    z-index:1;
+}
+
+.hidden-box{
+    visibility:hidden;
+}
+
+.overflow-box{
+    width:250px;
+    height:100px;
+    border:2px solid black;
+    overflow:auto;
+    margin-top:20px;
+}

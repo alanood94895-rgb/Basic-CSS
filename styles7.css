@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.btn{
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    background-color: crimson;
+    transform: scale(1.1);
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin: 40px auto;
+    animation: moveBox 3s infinite;
+}
+
+@keyframes moveBox{
+    0%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    50%{
+        transform: translateX(200px);
+        opacity: 0.5;
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
