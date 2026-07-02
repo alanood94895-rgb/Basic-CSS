@@ -1,0 +1,14 @@
+h1{
+    color: rgb(240, 13, 13);
+     font-size: 36px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+p {
+    color: rgb(170, 144, 30);
+    font-size: 18px;
+    font-family: Georgia, serif;
+    line-height: 1.8;
+    text-align: center;
+}
